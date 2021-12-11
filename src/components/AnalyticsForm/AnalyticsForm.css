@@ -1,0 +1,12 @@
+.userMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userAvatar {
+  margin-right: 5px;
+}
+.userName {
+  display: block;
+  margin-right: 5px;
+}

@@ -1,0 +1,208 @@
+.frontPage {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.6)),
+    url(/src/Images/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginForm {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginForm__header {
+  color: #ffffff;
+  background-color: rgb(56, 56, 155);
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.loginFormBody {
+  width: 310px;
+  padding: 20px;
+  border: 1px solid rgb(216, 222, 228);
+  border-radius: 6px;
+  background-color: #f6f8fa;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.NameForm {
+  position: relative;
+}
+
+.loginFormBody__label {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.loginFormBody__input {
+  width: 100%;
+  padding: 5px 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+  border: 1px solid rgb(216, 222, 228);
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.inputIconName {
+  background-image: url(../../Images/user.png);
+  background-size: 20px 20px;
+  position: absolute;
+  bottom: 23px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.inputIconName::after {
+  content: "";
+  position: absolute;
+  right: -11px;
+  top: -10px;
+  bottom: -10px;
+  width: 1px;
+  opacity: 0.5;
+  background-color: rgba(212, 212, 212, 0);
+  background-image: linear-gradient(
+    to top,
+    rgba(212, 212, 212, 0) 0,
+    #d4d4d4 30%,
+    #d4d4d4 70%,
+    rgba(212, 212, 212, 0) 100%
+  );
+}
+
+.EmailForm {
+  position: relative;
+}
+
+.inputIconEmail {
+  background-image: url(../../Images/mail2.png);
+  background-size: 18px 16px;
+  position: absolute;
+  bottom: 21px;
+  left: 13px;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.inputIconEmail::after {
+  content: "";
+  position: absolute;
+  right: -11px;
+  top: -10px;
+  bottom: -10px;
+  width: 1px;
+  opacity: 0.5;
+  background-color: rgba(212, 212, 212, 0);
+  background-image: linear-gradient(
+    to top,
+    rgba(212, 212, 212, 0) 0,
+    #d4d4d4 30%,
+    #d4d4d4 70%,
+    rgba(212, 212, 212, 0) 100%
+  );
+}
+
+.PasswordForm {
+  position: relative;
+}
+.inputIconPassword {
+  background-image: url(../../Images/lock.png);
+  background-size: 24px 20px;
+  position: absolute;
+  bottom: 23px;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.inputIconPassword::after {
+  content: "";
+  position: absolute;
+  right: -11px;
+  top: -10px;
+  bottom: -10px;
+  width: 1px;
+  opacity: 0.5;
+  background-color: rgba(212, 212, 212, 0);
+  background-image: linear-gradient(
+    to top,
+    rgba(212, 212, 212, 0) 0,
+    #d4d4d4 30%,
+    #d4d4d4 70%,
+    rgba(212, 212, 212, 0) 100%
+  );
+}
+
+.loginFormBody__button {
+  padding: 5px 16px;
+  cursor: pointer;
+  border: 1px solid;
+  border: transparent;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #2da44e;
+  color: white;
+  box-shadow: 4px 4px 8px 0px rgba(34, 37, 80, 0.46);
+  transition: all 0.25s ease-in-out;
+}
+
+.loginFormBody__button:active {
+  transform: translate(0em, 0.2em);
+}
+
+.loginFormBody__button:hover {
+  transform: scale(1.1);
+}
+
+.loginFormFooter {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.loginFormFooter:hover,
+.loginFormFooter:active {
+  color: blue;
+  transform: scale(1.1);
+}
